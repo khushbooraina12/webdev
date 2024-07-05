@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPORTS-UMIT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <div class="logo">
+                <a href="#"><img src="logomain.png" alt="logo"></a>
+            </div>
+            <ul class="main">
+                <li><a href="https://www.umit.ac.in/">Usha Mittal Institue Of Technology</a></li>
+                <li><a href="https://www.umit.ac.in/sports">Sports Council of UMIT</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>UMIT SPORTS<br><span>Unleash the zeal within</span></h2>
+                <p>With aim to encourage women in the field of sports, the Sports Council of Usha Mittal Institute of Technologes encourages students to believe in themselves by providing them with a platform for participating in various sports events.  
+                </p>
+            </div>
+            <div class="imgBox">
+             <img src="coreteam.jpg" alt="Sports Team" class="spoco">
+            </div>
+        </div>
+        <ul class="sci">
+            <li><a href="https://www.linkedin.com/company/sports-council-umit/"><img src="linkedin.png" alt="Linkedin"></a></li>
+            <li><a href="https://www.instagram.com/xuberance2023_24/"><img src="instagram.png" alt="Instagram"></a></li>
+        </ul>
+        <ul class="thumb">
+            <li class="logoleft"><img src="logoleft.png" onclick="imgSlider('spoco2.jpg')"></li>
+            <li class="logoright"><img src="logoright.png" onclick="imgSlider('coreteam.jpg')" ></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.spoco').src = anything;
+        }
+    </script>
+</body>
+
+</html>
